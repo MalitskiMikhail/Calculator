@@ -1,9 +1,11 @@
-import React from 'react';
+import React from 'react'
+import {Greet} from './components/Greet'
+
 
 const App: React.FC = () => {
   return (
       <div>
-        <h1>Hello, TypeScript!</h1>
+        <Greet name="10" />
       </div>
   );
 };
